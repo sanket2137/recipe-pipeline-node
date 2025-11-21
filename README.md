@@ -103,6 +103,7 @@ Data is stored in Firestore but exported into a fully normalized tabular structu
 ### Installation
 
 Install required dependencies:
+
 ```bash
 npm install firebase-admin csv-writer csv-parser
 ```
@@ -126,6 +127,7 @@ This step inserts the following data into Firestore:
 - 10 users
 - 300+ interactions
 - Ingredients and steps for each recipe
+
 ```bash
 node insert_data.js
 ```
@@ -135,6 +137,7 @@ node insert_data.js
 ### Step 2: Export ETL (Generate CSV Files)
 
 This step extracts data from Firestore and generates 5 normalized CSV files.
+
 ```bash
 node export_etl.js
 ```
@@ -152,6 +155,7 @@ node export_etl.js
 ### Step 3: Data Validation
 
 Runs data quality checks and generates a validation report.
+
 ```bash
 node validate_data.js
 ```
@@ -167,6 +171,7 @@ node validate_data.js
 ### Step 4: Analytics Generation
 
 Generates analytics insights and visual charts.
+
 ```bash
 node analytics.js
 ```
@@ -245,6 +250,7 @@ The analytics module generates the following insights:
 ---
 
 ## 7. Output Folder Structure
+
 ```
 output/
 ├── recipe.csv
@@ -267,6 +273,7 @@ output/
 ---
 
 ## 8. Project Directory Structure
+
 ```
 recipe-pipeline-node/
 ├── docs/
