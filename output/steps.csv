@@ -1,0 +1,12 @@
+recipe_id,step_id,order,text
+recipe_chicken_curry,step1,1,Wash the chicken and cut into pieces.
+recipe_chicken_curry,step10,10,Add garam masala and cook 2 minutes.
+recipe_chicken_curry,step11,11,"Adjust seasoning, garnish with coriander and serve."
+recipe_chicken_curry,step2,2,Chop onions and tomatoes; mince garlic and ginger.
+recipe_chicken_curry,step3,3,Heat the pan for 30 seconds.
+recipe_chicken_curry,step4,4,Add oil and sauté onions 3–5 minutes.
+recipe_chicken_curry,step5,5,"Add garlic and ginger, cook 20 seconds."
+recipe_chicken_curry,step6,6,Add dry spices and roast 20–30 seconds.
+recipe_chicken_curry,step7,7,Add tomatoes and cook 4–6 minutes.
+recipe_chicken_curry,step8,8,Add chicken and cook 5 minutes.
+recipe_chicken_curry,step9,9,"Add water and salt, simmer 10–12 minutes."

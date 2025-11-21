@@ -1,0 +1,87 @@
+=== ANALYTICS SUMMARY ===
+
+1. Most common ingredients:
+boneless chicken: 1
+coriander powder: 1
+garam masala: 1
+water: 1
+salt: 1
+coriander leaves: 1
+cooking oil: 1
+onions: 1
+tomatoes: 1
+garlic: 1
+
+2. Average preparation time (min):
+21.24
+
+3. Average cook time (min):
+26.43
+
+4. Difficulty distribution:
+easy: 11
+hard: 3
+medium: 7
+
+5. Most viewed recipes:
+recipe_omelette: 8
+recipe_fish_curry: 6
+recipe_dal_tadka: 6
+recipe_idli_sambhar: 6
+recipe_maggi: 5
+recipe_chapati: 5
+recipe_chicken_curry: 5
+recipe_mutton_masala: 5
+recipe_fried_chicken: 4
+recipe_veg_biryani: 4
+
+6. Most liked recipes:
+recipe_pav_bhaji: 9
+recipe_dal_tadka: 8
+recipe_pasta_alfredo: 7
+recipe_chicken_curry: 6
+recipe_chicken_biryani: 6
+recipe_veg_sandwich: 6
+recipe_omelette: 6
+recipe_chicken_kebab: 5
+recipe_idli_sambhar: 4
+recipe_tomato_soup: 4
+
+7. Recipes with most cook attempts:
+recipe_fried_chicken: 6
+recipe_idli_sambhar: 6
+recipe_tomato_soup: 5
+recipe_chapati: 5
+recipe_veg_biryani: 5
+recipe_omelette: 5
+recipe_maggi: 4
+recipe_veg_sandwich: 4
+recipe_dal_tadka: 4
+recipe_mutton_masala: 4
+
+8. Average rating per recipe:
+recipe_chicken_kebab: 5
+recipe_tomato_soup: 5
+recipe_omelette: 5
+recipe_poha: 5
+recipe_dal_tadka: 5
+recipe_idli_sambhar: 4.5
+recipe_veg_sandwich: 4.5
+recipe_chapati: 4.333333333333333
+recipe_chicken_curry: 4.333333333333333
+recipe_fish_curry: 4
+
+9. Correlation between prep time and likes:
+Correlation (prep_time_min vs like_count): 0.1104
+
+10. Ingredients associated with high engagement (top liked recipes):
+boneless chicken: 1
+coriander powder: 1
+garam masala: 1
+water: 1
+salt: 1
+coriander leaves: 1
+cooking oil: 1
+onions: 1
+tomatoes: 1
+garlic: 1

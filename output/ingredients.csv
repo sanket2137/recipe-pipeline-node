@@ -1,0 +1,15 @@
+recipe_id,ingredient_id,name,quantity,unit,notes,order
+recipe_chicken_curry,ing1,boneless chicken,300,g,cut into bite-sized pieces,1
+recipe_chicken_curry,ing10,coriander powder,1,tsp,,10
+recipe_chicken_curry,ing11,garam masala,1,tsp,,11
+recipe_chicken_curry,ing12,water,1,cup,,12
+recipe_chicken_curry,ing13,salt,1,tsp,,13
+recipe_chicken_curry,ing14,coriander leaves,1,bunch,chopped,14
+recipe_chicken_curry,ing2,cooking oil,1,tbsp,,2
+recipe_chicken_curry,ing3,onions,2,unit,finely chopped,3
+recipe_chicken_curry,ing4,tomatoes,2,unit,chopped,4
+recipe_chicken_curry,ing5,garlic,2,cloves,minced,5
+recipe_chicken_curry,ing6,ginger,1,tsp,paste,6
+recipe_chicken_curry,ing7,turmeric powder,1,tsp,,7
+recipe_chicken_curry,ing8,chili powder,1,tsp,,8
+recipe_chicken_curry,ing9,cumin powder,1,tsp,,9

@@ -1,0 +1,22 @@
+recipe_id,name,description,servings,prep_time_min,cook_time_min,total_time_min,difficulty,cuisine,tags,author_user_id,created_at
+recipe_aloo_paratha,Aloo Paratha,Synthetic recipe: Aloo Paratha,4,13,19,32,easy,Indian,synthetic,user3,2025-11-20T05:45:42.566Z
+recipe_chapati,Chapati,Synthetic recipe: Chapati,3,28,35,63,hard,Indian,synthetic,user2,2025-11-20T05:45:42.970Z
+recipe_chicken_biryani,Chicken Biryani,Synthetic recipe: Chicken Biryani,1,28,23,51,hard,Indian,synthetic,user1,2025-11-20T05:45:43.177Z
+recipe_chicken_curry,Chicken Curry,Chicken curry for 2 people.,2,15,25,40,medium,Indian,"curry,chicken,dinner",user_sanket,2025-11-20T05:45:34.010Z
+recipe_chicken_kebab,Chicken Kebab,Synthetic recipe: Chicken Kebab,1,13,25,38,easy,Indian,synthetic,user2,2025-11-20T05:45:46.580Z
+recipe_dal_tadka,Dal Tadka,Synthetic recipe: Dal Tadka,1,16,34,50,easy,Indian,synthetic,user3,2025-11-20T05:45:42.923Z
+recipe_egg_fried_rice,Egg Fried Rice,Synthetic recipe: Egg Fried Rice,4,13,18,31,medium,Indian,synthetic,user3,2025-11-20T05:45:42.623Z
+recipe_fish_curry,Fish Curry,Synthetic recipe: Fish Curry,1,28,18,46,medium,Indian,synthetic,user2,2025-11-20T05:45:42.858Z
+recipe_fried_chicken,Fried Chicken,Synthetic recipe: Fried Chicken,6,30,20,50,hard,Indian,synthetic,user1,2025-11-20T05:45:46.397Z
+recipe_idli_sambhar,Idli Sambhar,Synthetic recipe: Idli Sambhar,3,27,13,40,easy,Indian,synthetic,user2,2025-11-20T05:45:43.076Z
+recipe_maggi,Maggi,Synthetic recipe: Maggi,1,11,37,48,easy,Indian,synthetic,user2,2025-11-20T05:45:46.230Z
+recipe_mutton_masala,Mutton Masala,Synthetic recipe: Mutton Masala,4,30,40,70,medium,Indian,synthetic,user1,2025-11-20T05:45:42.710Z
+recipe_omelette,Omelette,Synthetic recipe: Omelette,1,25,34,59,easy,Indian,synthetic,user2,2025-11-20T05:45:46.014Z
+recipe_paneer_butter_masala,Paneer Butter Masala,Synthetic recipe: Paneer Butter Masala,4,19,31,50,easy,Indian,synthetic,user3,2025-11-20T05:45:42.787Z
+recipe_pasta_alfredo,Pasta Alfredo,Synthetic recipe: Pasta Alfredo,2,30,13,43,easy,Indian,synthetic,user1,2025-11-20T05:45:42.431Z
+recipe_pav_bhaji,Pav Bhaji,Synthetic recipe: Pav Bhaji,2,28,40,68,easy,Indian,synthetic,user3,2025-11-20T05:45:44.169Z
+recipe_poha,Poha,Synthetic recipe: Poha,4,25,40,65,easy,Indian,synthetic,user3,2025-11-20T05:45:45.793Z
+recipe_tomato_soup,Tomato Soup,Synthetic recipe: Tomato Soup,3,19,11,30,easy,Indian,synthetic,user1,2025-11-20T05:45:43.832Z
+recipe_upma,Upma,Synthetic recipe: Upma,3,19,28,47,medium,Indian,synthetic,user1,2025-11-20T05:45:45.052Z
+recipe_veg_biryani,Veg Biryani,Synthetic recipe: Veg Biryani,4,11,30,41,medium,Indian,synthetic,user2,2025-11-20T05:45:42.474Z
+recipe_veg_sandwich,Veg Sandwich,Synthetic recipe: Veg Sandwich,2,18,21,39,medium,Indian,synthetic,user1,2025-11-20T05:45:43.549Z
