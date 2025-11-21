@@ -2,7 +2,11 @@
 
 A complete end-to-end **Data Engineering Pipeline** implemented using **Firebase Firestore** and **Node.js**, designed to ingest recipe data, generate synthetic datasets, validate data quality, perform analytics, and output normalized CSV tables with visual insights.
 
+<<<<<<< HEAD
 This project is built as part of the **Data Engineering Assessment**.
+=======
+This project is built as part of the **Data Engineering Assessment** 
+>>>>>>> 552c8c0667bebcd4cd947044ef7514b79ad7d08c
 
 ---
 
