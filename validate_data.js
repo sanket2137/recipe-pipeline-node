@@ -51,7 +51,7 @@ async function main() {
 
   await writer.writeRecords(errors);
   if (errors.length === 0) {
-    console.log("✅ All records passed validation. No errors.");
+    console.log("All records passed validation. No errors.");
   } else {
     console.log(
       `⚠ Found ${errors.length} validation errors. See validation_report.csv`
@@ -137,5 +137,5 @@ function validateInteractions(rows) {
 }
 
 main().catch((err) => {
-  console.error("❌ Error in validate_data:", err);
+  console.error("Error in validate_data:", err);
 });

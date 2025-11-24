@@ -48,7 +48,7 @@ async function exportUsers() {
   });
 
   await writer.writeRecords(rows);
-  console.log("✅ users.csv written.");
+  console.log("users.csv written.");
 }
 
 // -----------------------------
@@ -101,7 +101,7 @@ async function exportRecipes() {
   });
 
   await csvWriter.writeRecords(rows);
-  console.log("✅ recipe.csv written.");
+  console.log("recipe.csv written.");
   return rows;
 }
 
@@ -179,7 +179,7 @@ async function exportIngredientsAndSteps(recipesRows) {
   await ingWriter.writeRecords(ingredientsRows);
   await stepWriter.writeRecords(stepsRows);
 
-  console.log("✅ ingredients.csv and steps.csv written.");
+  console.log("ingredients.csv and steps.csv written.");
 }
 
 // -----------------------------
@@ -220,7 +220,7 @@ async function exportInteractions() {
   });
 
   await writer.writeRecords(rows);
-  console.log("✅ interactions.csv written.");
+  console.log("interactions.csv written.");
 }
 
 // -----------------------------
@@ -231,13 +231,13 @@ async function main() {
     fs.mkdirSync(OUTPUT_DIR);
   }
 
-  await exportUsers(); // ⭐ NEW ADDITION
+  await exportUsers(); //  NEW ADDITION
 
   const recipes = await exportRecipes();
   await exportIngredientsAndSteps(recipes);
   await exportInteractions();
 
-  console.log("🏁 Export complete.");
+  console.log("Export complete.");
 }
 
 main();

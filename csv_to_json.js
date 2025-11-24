@@ -14,7 +14,7 @@ function csvToJson(csvPath, jsonPath) {
       .on("data", (data) => rows.push(data))
       .on("end", () => {
         fs.writeFileSync(jsonPath, JSON.stringify(rows, null, 2), "utf8");
-        console.log(`✅ Converted: ${path.basename(csvPath)} → ${path.basename(jsonPath)}`);
+        console.log(`Converted: ${path.basename(csvPath)} → ${path.basename(jsonPath)}`);
         resolve();
       })
       .on("error", reject);
@@ -34,7 +34,7 @@ async function main() {
     const jsonPath = path.join(OUTPUT_DIR, jsonName);
 
     if (!fs.existsSync(csvPath)) {
-      console.log(`⚠ CSV file missing: ${csvName}, skipping.`);
+      console.log(`CSV file missing: ${csvName}, skipping.`);
       continue;
     }
 
@@ -44,4 +44,4 @@ async function main() {
   console.log("🎉 All CSV files converted to JSON!");
 }
 
-main().catch((err) => console.error("❌ Error in csv_to_json:", err));
+main().catch((err) => console.error("Error in csv_to_json:", err));

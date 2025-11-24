@@ -21,7 +21,7 @@ function writeJSON(filename, data) {
     JSON.stringify(data, null, 2),
     "utf8"
   );
-  console.log(`✅ ${filename} written.`);
+  console.log(`${filename} written.`);
 }
 
 // -----------------------------
@@ -168,7 +168,7 @@ async function main() {
   await exportIngredientsAndSteps(recipes);
   await exportInteractions();
 
-  console.log("🏁 JSON export complete.");
+  console.log("JSON export complete.");
 }
 
 main();

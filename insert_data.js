@@ -24,7 +24,7 @@ async function main() {
   await insertUsers();
   await insertInteractions();
 
-  console.log("✅ All data inserted successfully.");
+  console.log("All data inserted successfully.");
 }
 
 async function insertChickenCurry() {
@@ -96,7 +96,7 @@ async function insertChickenCurry() {
     });
   }
 
-  console.log("✅ Chicken Curry recipe, ingredients, steps inserted.");
+  console.log("Chicken Curry recipe, ingredients, steps inserted.");
 }
 
 async function insertSyntheticRecipes() {
@@ -143,7 +143,7 @@ async function insertSyntheticRecipes() {
     });
   }
 
-  console.log("✅ Synthetic recipes inserted.");
+  console.log("Synthetic recipes inserted.");
 }
 
 async function insertUsers() {
@@ -170,7 +170,7 @@ async function insertUsers() {
   }
 
   await batch.commit();
-  console.log("✅ Users inserted.");
+  console.log("Users inserted.");
 }
 
 async function insertInteractions() {
@@ -218,7 +218,7 @@ async function insertInteractions() {
     await batch.commit();
   }
 
-  console.log("✅ Interactions inserted.");
+  console.log("Interactions inserted.");
 }
 
 function randInt(min, max) {
@@ -230,5 +230,5 @@ function sample(arr) {
 }
 
 main().catch((err) => {
-  console.error("❌ Error inserting data:", err);
+  console.error("Error inserting data:", err);
 });

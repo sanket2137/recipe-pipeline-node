@@ -5,7 +5,7 @@ A complete end-to-end **Data Engineering Pipeline** implemented using **Firebase
 This project is built as part of the **Data Engineering Assessment**.
 
 
-## 📌 Author
+##  Author
 
 **Name:** Sanket Raut  
 **Primary Recipe Used:** Chicken Curry (for 2 people)
@@ -53,7 +53,7 @@ This automated pipeline performs the following operations:
 
 Data is stored in Firestore but exported into a fully normalized tabular structure (3NF).
 
-### 📘 Entity Relationship Diagram
+###  Entity Relationship Diagram
 
 **Local ERD Image:**  
 ![ERD](recipe_erd_diagram.png)
@@ -63,7 +63,7 @@ Data is stored in Firestore but exported into a fully normalized tabular structu
 
 ---
 
-### 🧱 Tables Overview
+###  Tables Overview
 
 #### 1. users
 **Columns:** `user_id`, `name`, `email`, `country`, `created_at`  
@@ -258,21 +258,24 @@ The analytics module generates the following insights:
 
 ```
 output/
-├── recipe.csv
-├── users.csv
-├── ingredients.csv
-├── steps.csv
-├── interactions.csv
-├── validation_report.csv
 ├── analytics_summary.txt
-├── top_liked_recipes.png
-├── top_viewed_recipes.png
+├── charts.py
 ├── difficulty_distribution.png
+├── ingredients.csv
+├── ingredients.json
+├── interactions.csv
 ├── prep_time_vs_likes.png
+├── recipe.csv
+├── steps.csv
 ├── top_10_most_common_ingredients.png
 ├── top_countries_by_user_count.png
+├── top_liked_recipes.png
+├── top_viewed_recipes.png
+├── user_growth_by_month.png
 ├── users_with_the_most_recipes.png
-└── user_growth_by_month.png
+├── users.csv
+├── validation_report.csv
+
 ```
 
 ---
@@ -280,20 +283,25 @@ output/
 ## 8. Project Directory Structure
 
 ```
-recipe-pipeline-node/
-├── docs/
-│   ├── data_dictionary.md
-│   └── recipe_erd_diagram.png
-├── output/
-│   └── (all CSV and PNG files)
-├── insert_data.js
-├── export_etl.js
-├── validate_data.js
-├── analytics.js
-├── package.json
-├── package-lock.json
-├── serviceAccountKey.json
-└── README.md
+output/
+├── analytics_summary.txt
+├── charts.py
+├── difficulty_distribution.png
+├── ingredients.csv
+├── ingredients.json
+├── interactions.csv
+├── prep_time_vs_likes.png
+├── recipe.csv
+├── steps.csv
+├── top_10_most_common_ingredients.png
+├── top_countries_by_user_count.png
+├── top_liked_recipes.png
+├── top_viewed_recipes.png
+├── user_growth_by_month.png
+├── users_with_the_most_recipes.png
+├── users.csv
+├── validation_report.csv
+
 ```
 
 ---

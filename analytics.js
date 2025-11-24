@@ -127,7 +127,7 @@ async function main() {
 
   const outPath = path.join(OUTPUT_DIR, "analytics_summary.txt");
   fs.writeFileSync(outPath, lines.join("\n"), "utf8");
-  add("\n✅ Analytics summary saved to analytics_summary.txt");
+  add("\nAnalytics summary saved to analytics_summary.txt");
 }
 
 function countBy(arr, keyFn) {
@@ -184,5 +184,5 @@ function correlation(x, y) {
 }
 
 main().catch((err) => {
-  console.error("❌ Error in analytics:", err);
+  console.error("Error in analytics:", err);
 });

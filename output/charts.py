@@ -8,7 +8,7 @@ import os
 recipe = pd.read_csv("recipe.csv")
 ingredients = pd.read_csv("ingredients.csv")
 interactions = pd.read_csv("interactions.csv")
-users = pd.read_csv("users.csv")   # ⭐ NEW
+users = pd.read_csv("users.csv")   #  NEW
 
 
 # ============================
@@ -99,7 +99,7 @@ save_chart("Prep Time vs Likes")
 
 
 # ============================
-# 6. ⭐ Users by Month (Growth Trend)
+# 6.  Users by Month (Growth Trend)
 # ============================
 users["created_at"] = pd.to_datetime(users["created_at"], errors="coerce")
 users["month"] = users["created_at"].dt.to_period("M")
@@ -116,7 +116,7 @@ save_chart("User Growth by Month")
 
 
 # ============================
-# 7. ⭐ Users by Country
+# 7.  Users by Country
 # ============================
 if "country" in users.columns:
     country_counts = users["country"].value_counts().head(10)
@@ -131,7 +131,7 @@ if "country" in users.columns:
 
 
 # ============================
-# 8. ⭐ Recipes Created per User
+# 8.  Recipes Created per User
 # ============================
 recipes_per_user = recipe["author_user_id"].value_counts().head(10)
 

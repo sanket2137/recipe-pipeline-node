@@ -14,7 +14,7 @@ function readJson(filePath) {
   try {
     return JSON.parse(fs.readFileSync(filePath, "utf8"));
   } catch (err) {
-    console.error(`❌ Failed to read JSON file: ${filePath}`);
+    console.error(`Failed to read JSON file: ${filePath}`);
     throw err;
   }
 }
@@ -43,7 +43,7 @@ async function main() {
   writeJson(reportPath, errors);
 
   if (errors.length === 0) {
-    console.log("✅ All JSON records passed validation. No errors.");
+    console.log("All JSON records passed validation. No errors.");
   } else {
     console.log(`⚠ Found ${errors.length} validation errors. See validation_report.json`);
   }
@@ -126,4 +126,4 @@ function validateInteractions(rows) {
 }
 
 // ---------------- RUN ----------------
-main().catch((err) => console.error("❌ Error in validate_json:", err));
+main().catch((err) => console.error("Error in validate_json:", err));
