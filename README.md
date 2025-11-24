@@ -151,6 +151,7 @@ node export_etl.js
 
 ---
 
+
 ### Step 3: Data Validation
 
 Runs data quality checks and generates a validation report.
@@ -179,6 +180,11 @@ node analytics.js
 
 - `analytics_summary.txt` - Comprehensive analytics report
 - Multiple PNG chart files
+ <div style="display: flex; gap: 10px;">
+    <img src="output/difficulty_distribution.png" alt="Difficulty Distribution" width="200">
+    <img src="output/top_liked_recipes.png" alt="Top Liked Recipes" width="200">
+    <img src="output/users_with_the_most_recipes.png" alt="Users With Most Recipes" width="200">
+</div>
 
 **Generated Charts:**
 
