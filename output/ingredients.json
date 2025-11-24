@@ -1,0 +1,128 @@
+[
+  {
+    "recipe_id": "recipe_chicken_curry",
+    "ingredient_id": "ing1",
+    "name": "boneless chicken",
+    "quantity": 300,
+    "unit": "g",
+    "notes": "cut into bite-sized pieces",
+    "order": 1
+  },
+  {
+    "recipe_id": "recipe_chicken_curry",
+    "ingredient_id": "ing10",
+    "name": "coriander powder",
+    "quantity": 1,
+    "unit": "tsp",
+    "notes": "",
+    "order": 10
+  },
+  {
+    "recipe_id": "recipe_chicken_curry",
+    "ingredient_id": "ing11",
+    "name": "garam masala",
+    "quantity": 1,
+    "unit": "tsp",
+    "notes": "",
+    "order": 11
+  },
+  {
+    "recipe_id": "recipe_chicken_curry",
+    "ingredient_id": "ing12",
+    "name": "water",
+    "quantity": 1,
+    "unit": "cup",
+    "notes": "",
+    "order": 12
+  },
+  {
+    "recipe_id": "recipe_chicken_curry",
+    "ingredient_id": "ing13",
+    "name": "salt",
+    "quantity": 1,
+    "unit": "tsp",
+    "notes": "",
+    "order": 13
+  },
+  {
+    "recipe_id": "recipe_chicken_curry",
+    "ingredient_id": "ing14",
+    "name": "coriander leaves",
+    "quantity": 1,
+    "unit": "bunch",
+    "notes": "chopped",
+    "order": 14
+  },
+  {
+    "recipe_id": "recipe_chicken_curry",
+    "ingredient_id": "ing2",
+    "name": "cooking oil",
+    "quantity": 1,
+    "unit": "tbsp",
+    "notes": "",
+    "order": 2
+  },
+  {
+    "recipe_id": "recipe_chicken_curry",
+    "ingredient_id": "ing3",
+    "name": "onions",
+    "quantity": 2,
+    "unit": "unit",
+    "notes": "finely chopped",
+    "order": 3
+  },
+  {
+    "recipe_id": "recipe_chicken_curry",
+    "ingredient_id": "ing4",
+    "name": "tomatoes",
+    "quantity": 2,
+    "unit": "unit",
+    "notes": "chopped",
+    "order": 4
+  },
+  {
+    "recipe_id": "recipe_chicken_curry",
+    "ingredient_id": "ing5",
+    "name": "garlic",
+    "quantity": 2,
+    "unit": "cloves",
+    "notes": "minced",
+    "order": 5
+  },
+  {
+    "recipe_id": "recipe_chicken_curry",
+    "ingredient_id": "ing6",
+    "name": "ginger",
+    "quantity": 1,
+    "unit": "tsp",
+    "notes": "paste",
+    "order": 6
+  },
+  {
+    "recipe_id": "recipe_chicken_curry",
+    "ingredient_id": "ing7",
+    "name": "turmeric powder",
+    "quantity": 1,
+    "unit": "tsp",
+    "notes": "",
+    "order": 7
+  },
+  {
+    "recipe_id": "recipe_chicken_curry",
+    "ingredient_id": "ing8",
+    "name": "chili powder",
+    "quantity": 1,
+    "unit": "tsp",
+    "notes": "",
+    "order": 8
+  },
+  {
+    "recipe_id": "recipe_chicken_curry",
+    "ingredient_id": "ing9",
+    "name": "cumin powder",
+    "quantity": 1,
+    "unit": "tsp",
+    "notes": "",
+    "order": 9
+  }
+]
