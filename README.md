@@ -283,24 +283,43 @@ output/
 ## 8. Project Directory Structure
 
 ```
-output/
-├── analytics_summary.txt
-├── charts.py
-├── difficulty_distribution.png
-├── ingredients.csv
-├── ingredients.json
-├── interactions.csv
-├── prep_time_vs_likes.png
-├── recipe.csv
-├── steps.csv
-├── top_10_most_common_ingredients.png
-├── top_countries_by_user_count.png
-├── top_liked_recipes.png
-├── top_viewed_recipes.png
-├── user_growth_by_month.png
-├── users_with_the_most_recipes.png
-├── users.csv
-├── validation_report.csv
+recipe-pipeline-node/
+│
+├── docs/
+│   ├── data_dictionary.md
+│   └── recipe_erd_diagram.png
+│
+├── output/
+│   ├── analytics_summary.txt
+│   ├── charts.py
+│   ├── difficulty_distribution.png
+│   ├── ingredients.csv
+│   ├── ingredients.json
+│   ├── interactions.csv
+│   ├── prep_time_vs_likes.png
+│   ├── recipe.csv
+│   ├── steps.csv
+│   ├── top_10_most_common_ingredients.png
+│   ├── top_countries_by_user_count.png
+│   ├── top_liked_recipes.png
+│   ├── top_viewed_recipes.png
+│   ├── user_growth_by_month.png
+│   ├── users_with_the_most_recipes.png
+│   ├── users.csv
+│   └── validation_report.csv
+│
+├── .gitignore
+├── analytics.js
+├── csv_to_json.js
+├── export_etl.js
+├── export_etl_json.js
+├── Implementation.md
+├── insert_data.js
+├── README.md
+├── recipe_erd_diagram.png
+├── recipe_pipeline.pdf
+├── validate_data.js
+└── validate_json.js
 
 ```
 
